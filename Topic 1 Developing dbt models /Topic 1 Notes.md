@@ -16,4 +16,4 @@
 
 ```grants ```
 
-(Grants - dbt documentation link)[https://docs.getdbt.com/reference/resource-configs/grants]
+[Grants - dbt documentation link](https://docs.getdbt.com/reference/resource-configs/grants)
