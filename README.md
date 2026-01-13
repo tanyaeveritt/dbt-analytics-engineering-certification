@@ -1,19 +1,7 @@
-# dbt-analytics-engineering-certification
-
-## Get Started
-This repo goes through all the notes needed to pass the dbt analytics engineering certification as of 13th Jan 2026.
-Each folder will have notes of each topic
-
-## Book Exam
-
-## Links
-Study Guide: https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide
-
-
 **dbt Analytics Engineering Study Notes** | [Domain 1 >](./1_Snowflake_for_Gen_AI_Overview/README.md)
 ***
 
-# Snowflake SnowPro Specialty: Generative AI Study Notes
+# dbt Analytics Engineering Certification Study Notes
 
 This repository contains comprehensive study notes for the dbt Analytics Engineering certification exam, designed for those that want to understand the transformation in ETL (extract, transform, load).
 
@@ -38,6 +26,7 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 
 ### **Exam Preparation**
 *   [Exam Strategy Guide](./exam_prep/Exam_Strategy.md)
+*   Study Guide: https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide
 
 ## 🎯 How to Use This Guide
 
