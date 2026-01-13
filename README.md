@@ -1,6 +1,3 @@
-**dbt Analytics Engineering Study Notes** | [Domain 1 >](https://github.com/tanyaeveritt/dbt-analytics-engineering-certification/blob/main/Topic%201%3A%20Developing%20dbt%20models.md#topic-1-developing-dbt-models)
-***
-
 # dbt Analytics Engineering Certification Study Notes
 
 This repository contains comprehensive study notes for the dbt Analytics Engineering certification exam, designed for those that want to understand the transformation in ETL (extract, transform, load).
@@ -60,5 +57,5 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 * dbt Slack
 
 ---
-**dbt Analytics Engineering Study Notes** | [Domain 1 >](./1_Snowflake_for_Gen_AI_Overview/README.md)
+**dbt Analytics Engineering Study Notes** | [Topic 1: Developing dbt models >](https://github.com/tanyaeveritt/dbt-analytics-engineering-certification/blob/main/Topic%201%3A%20Developing%20dbt%20models.md#topic-1-developing-dbt-models)
 ***
