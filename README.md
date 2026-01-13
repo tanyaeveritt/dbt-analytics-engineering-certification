@@ -21,7 +21,7 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 ## 📋 Study Resources
 
 ### **Practice Scenarios**
-*   [Building RAG Applications](./scenarios/01_Building_RAG_Applications.md)
+*   [Learning Path](https://learn.getdbt.com/learning-paths/dbt-certified-developer)
 
 ### **Exam Preparation**
 *   [Exam Strategy Guide](./exam_prep/Exam_Strategy.md)
