@@ -8,7 +8,9 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 ## 🎯 Exam Overview
 
 **Exam Format:** 65 questions, 2 hours
+
 **Prerequisites:** Basic SQL 
+
 **Passing Score:** 65%  
 
 ## ⚠️ Important Notice
