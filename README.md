@@ -1,4 +1,4 @@
-**dbt Analytics Engineering Study Notes** | [Domain 1 >](./1_Snowflake_for_Gen_AI_Overview/README.md)
+**dbt Analytics Engineering Study Notes** | [Domain 1 >](https://github.com/tanyaeveritt/dbt-analytics-engineering-certification/blob/main/Topic%201%3A%20Developing%20dbt%20models.md#topic-1-developing-dbt-models)
 ***
 
 # dbt Analytics Engineering Certification Study Notes
