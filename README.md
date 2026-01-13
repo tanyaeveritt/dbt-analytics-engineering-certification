@@ -11,7 +11,8 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 **Passing Score:** 65%  
 
 ## ⚠️ Important Notice
-
+Name change in teh dbt space have happened
+* dbt cloud is now called dbt platform.
 
 ## 📚 Domain Topics
 
