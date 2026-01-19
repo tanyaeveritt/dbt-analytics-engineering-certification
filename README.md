@@ -19,14 +19,23 @@ Name change in teh dbt space have happened
 *   [Topic 1:]()
 *   [Topic 2:]()
 
-## 📋 Study Resources
+## 📋 **Get Started**
+Depending on your dbt skill level you might want to check each resource out and test how well you know the content and determine whether you want to skip it.
+1.    **Start by reading the [Study Guide](https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide)** Get an idea of what topics you have worked on and address you study schedule according to content you dont know.
+2.    **Attempt one practice paper** from [Practice Questions - qanalabs](https://www.qanalabs.com/courses/dbt-developer). Identify gaps
+3.    **Complete the [Learning Path](https://learn.getdbt.com/learning-paths/dbt-certified-developer)** to fill in gaps
+4.    **Read dbt slack channels** recent posts and conversations for tips and tricks for the exam.
+5.    **Attempt all remaining practice papers** from [Practice Questions - qanalabs](https://www.qanalabs.com/courses/dbt-developer) and score an average of 80%. This will ensure you are ready for the exam.
 
-### **Practice Scenarios**
-*   [Learning Path](https://learn.getdbt.com/learning-paths/dbt-certified-developer)
+### **Learning Path**
+*   Learning Path: https://learn.getdbt.com/learning-paths/dbt-certified-developer
 
-### **Exam Preparation**
-*   [Exam Strategy Guide](./exam_prep/Exam_Strategy.md)
+### **Study Guide**
 *   Study Guide: https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide
+
+### **Practice Exams**
+*   dbt Analytics Engineering Certification Practice Questions - qanalabs: https://www.qanalabs.com/courses/dbt-developer
+
 
 ## 🎯 How to Use This Guide
 
