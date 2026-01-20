@@ -5,9 +5,10 @@
 * Understanding core dbt materializations
 * Conceptualizing modularity and how to incorporate DRY principles
 * Converting business logic into performant SQL queries
-* Using commands such as run, test, docs and seed
 
-## Run
+## Using commands such as run, test, docs and seed
+
+### Run
 **Run all models** 
 ```sql
 dbt run
@@ -34,8 +35,8 @@ Learn more at [dbt run - dbt documentation](https://popsql.com/learn-dbt/dbt-run
 
 ---
 
-## Docs
-### Ability to generate documentation for your data models
+### Docs
+#### Ability to generate documentation for your data models
 
 **1. Generate the documentation**
 ```sql 
@@ -46,8 +47,8 @@ dbt docs generate
 dbt docs serve
 ```
 ---
-## Seed
-### Allows you to load CSV files (referred to as “seeds”) into your data warehouse. 
+### Seed
+#### Allows you to load CSV files (referred to as “seeds”) into your data warehouse. 
 Static referenece data in csv format\
 Place seed file in the **seed folder** directory of your dbt project.
 
