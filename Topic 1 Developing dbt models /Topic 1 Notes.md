@@ -35,8 +35,16 @@ Learn more at [dbt run - dbt documentation](https://popsql.com/learn-dbt/dbt-run
 ---
 
 ## Docs
-```dbt docs```
+### Ability to generate documentation for your data models
 
+**1. Generate the documentation**
+```sql 
+dbt docs generate
+```
+**2. Serve it locally** Start a web server and open the documentation in your default web browser. You can navigate through the documentation to view information about your dbt project
+```sql 
+dbt docs serve
+```
 ---
 ## Seed
 ### Allows you to load CSV files (referred to as “seeds”) into your data warehouse. 
@@ -51,7 +59,7 @@ dbt seed
 ```sql
 dbt seed --select product_codes
 ```
-**Reference in models**
+**Reference in model files**
 ```
 {{ ref('product_codes') }}
 ```
