@@ -1,13 +1,11 @@
 #
 
-
 * Identifying and verifying any raw object dependencies
 * Understanding core dbt materializations
 * Conceptualizing modularity and how to incorporate DRY principles
 * Converting business logic into performant SQL queries
 
 ## Using commands such as run, test, docs and seed
-
 ### Run
 **Run all models** 
 ```sql
@@ -22,17 +20,53 @@ OR
 ```sql
 dbt run -m sales
 ```
-
+#### Optional Flags
 **Full Refresh Run** - Ignores the incremental logic in the where statement of the model and run for all days in the source data set.
 ```sql 
-dbt run --model sales --full-refresh
+dbt run --full-refresh
 ```
-Learn more at [dbt run - dbt documentation](https://popsql.com/learn-dbt/dbt-run-command)
+**Empty Run** - Building schema-only dry runs
+```sql 
+dbt run --empty
+```
+
+**Fail-fast Run** - Building schema-only dry runs
+```sql 
+dbt run --empty
+```
+Learn more at [dbt run - dbt documentation]([https://popsql.com/learn-dbt/dbt-run-command](https://docs.getdbt.com/reference/commands/run)
+Learn more at [dbt run - popsql](https://popsql.com/learn-dbt/dbt-run-command)
 
 ----
 ## Test
-```dbt test```
+```sql
+# run data and unit tests
+dbt test
 
+# run only data tests
+dbt test --select test_type:data
+
+# run only unit tests
+dbt test --select test_type:unit
+
+# run tests for one_specific_model
+dbt test --select "one_specific_model"
+
+# run tests for all models in package
+dbt test --select "some_package.*"
+
+# run only data tests defined singularly
+dbt test --select "test_type:singular"
+
+# run only data tests defined generically
+dbt test --select "test_type:generic"
+
+# run data tests limited to one_specific_model
+dbt test --select "one_specific_model,test_type:data"
+
+# run unit tests limited to one_specific_model
+dbt test --select "one_specific_model,test_type:unit"
+```
 ---
 
 ### Docs
