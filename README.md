@@ -20,15 +20,19 @@ Name change in the dbt space have happened
 * More full list of dbt related defintions, please refer to the glossary file.
 
 ## 📚 Domain Topics
-
+*   [Get Started - you are here]()
 *   [Topic 1:]()
+      * [Topic 1 Notes]()
 *   [Topic 2:]()
+      * [Topic 2 Notes]()
 *   [Topic 3:]()
 *   [Topic 4:]()
 *   [Topic 5:]()
 *   [Topic 6:]()
 *   [Topic 7:]()
 *   [Topic 8:]()
+*   [Glossary]()
+*   [Common Mistakes]()
 
 ## 📋 **How to Use This Guide**
 Depending on your dbt skill level you might want to check each resource out and test how well you know the content and determine whether you want to skip it.
