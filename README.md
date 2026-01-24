@@ -13,7 +13,8 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 ## ⚠️ Important Notice
 Name change in teh dbt space have happened
 * dbt cloud is now called dbt platform. https://docs.getdbt.com/docs/introduction#the-dbt-platform-formerly-dbt-cloud
-* dbt fusion enginer is
+* dbt fusion enginer are
+* dbt model are .sql files that live in the models folder.
 
 ## 📚 Domain Topics
 
