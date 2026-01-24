@@ -42,7 +42,7 @@ Learn more at [dbt run - dbt documentation]([https://popsql.com/learn-dbt/dbt-ru
 Learn more at [dbt run - popsql](https://popsql.com/learn-dbt/dbt-run-command)
 
 ----
-## Test
+### Test
 ```sql
 # run data and unit tests
 dbt test
