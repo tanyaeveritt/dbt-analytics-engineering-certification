@@ -3,6 +3,9 @@
 * Identifying and verifying any raw object dependencies
 * Understanding core dbt materializations
 * Conceptualizing modularity and how to incorporate DRY principles
+
+Modularity is the degree to which a system's components may be separated and recombined, often with the benefit of flexibility and variety in use.
+
 * Converting business logic into performant SQL queries
 
 ## Using commands such as run, test, docs and seed
