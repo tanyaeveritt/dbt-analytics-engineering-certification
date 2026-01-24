@@ -101,7 +101,7 @@ dbt test --select "one_specific_model,test_type:unit"
 ---
 
 ### Docs
-#### Ability to generate documentation for your data models
+**Ability to generate documentation for your data models**
 
 **1. Generate the documentation**
 ```sql 
@@ -113,7 +113,7 @@ dbt docs serve
 ```
 ---
 ### Seed
-#### Allows you to load CSV files (referred to as “seeds”) into your data warehouse. 
+**Allows you to load CSV files (referred to as “seeds”) into your data warehouse.**
 Static referenece data in csv format\
 Place seed file in the **seed folder** directory of your dbt project.
 
@@ -153,6 +153,8 @@ Learn more at [dbt seed - dbt documentation](https://popsql.com/learn-dbt/dbt-se
 * Creating Python models
 * Providing access to users to models with the “grants” configuration
 
+---
+### Grants
 ```grants ```
 
 [Grants - dbt documentation link](https://docs.getdbt.com/reference/resource-configs/grants)
