@@ -48,10 +48,7 @@ Depending on your dbt skill level you might want to check each resource out and 
 *   Learning Path: https://learn.getdbt.com/learning-paths/dbt-certified-developer
 *   Study Guide: https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide
 *   dbt Analytics Engineering Certification Practice Questions - qanalabs: https://www.qanalabs.com/courses/dbt-developer
-  
-## 🔗 Additional Resources
-
-* dbt Slack
+*   dbt Slack
 
 ---
 **dbt Analytics Engineering Study Notes** | [Topic 1: Developing dbt models >](https://github.com/tanyaeveritt/dbt-analytics-engineering-certification/blob/main/Topic%201%3A%20Developing%20dbt%20models.md#topic-1-developing-dbt-models)
