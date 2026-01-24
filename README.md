@@ -15,6 +15,7 @@ Name change in teh dbt space have happened
 * dbt cloud is now called dbt platform. https://docs.getdbt.com/docs/introduction#the-dbt-platform-formerly-dbt-cloud
 * dbt fusion enginer are
 * dbt model are .sql files that live in the models folder.
+* Modeling History - With a modern cloud-based data warehouse, we can approach analytics differently in an agile or ad hoc modeling technique. This is often referred to as denormalized modeling.
 
 ## 📚 Domain Topics
 
