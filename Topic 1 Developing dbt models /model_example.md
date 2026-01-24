@@ -3,6 +3,10 @@
 ```sql
 --Filename: sales.sql
 
+{{ config(
+materialized='table'
+) }}
+
 select 
   sales_date,
   product_category, 
