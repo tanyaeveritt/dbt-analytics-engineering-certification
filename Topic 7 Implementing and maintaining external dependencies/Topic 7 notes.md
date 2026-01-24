@@ -4,7 +4,7 @@
 
 
 ## Implementing source freshness
-
+source or model level
 e.g. 
 ```sql
 sources:
@@ -12,7 +12,6 @@ sources:
     database: raw
     config: 
       freshness: # default freshness
-        # changed to config in v1.9
         warn_after: {count: 12, period: hour}
         error_after: {count: 24, period: hour}
       loaded_at_field: _etl_loaded_at # changed to config in v1.10
@@ -25,7 +24,6 @@ sources:
             error_after: {count: 12, period: hour}
 
       - name: customers # this inherits the default freshness defined in the jaffle_shop source block at the beginning
-
 
       - name: product_skus
         config:
