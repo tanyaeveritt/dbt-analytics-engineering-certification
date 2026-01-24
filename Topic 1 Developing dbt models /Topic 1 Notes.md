@@ -1,8 +1,35 @@
-#
 
-* Identifying and verifying any raw object dependencies
-* Understanding core dbt materializations
-* Conceptualizing modularity and how to incorporate DRY principles
+## Identifying and verifying any raw object dependencies
+dbt identifies raw object dependencies using source() definitions and verifies them using source tests and freshness checks, but does not create or manage the raw objects themselves.
+
+```note: require more notes here```
+
+## Understanding core dbt materializations
+A dbt model can be:
+* table
+* view
+* incremental
+* ephemeral
+* materialized view
+
+**Ephemeral** models are not directly built into the database. Instead, dbt will interpolate the code from an ephemeral model into its dependent models using a common table expression (CTE). Uses cases include for **intermediate transformations** and **reusable logic.**
+
+**Python materializations** supports only **table** and **incremental**
+```python
+import snowflake.snowpark.functions as F
+
+def model(dbt, session):
+    dbt.config(materialized = "incremental")
+    df = dbt.ref("upstream_table")
+
+    if dbt.is_incremental:
+    ...
+    return df
+```
+  
+Learn more at [materializations - dbt documentation](https://docs.getdbt.com/docs/build/materializations)
+  
+## Conceptualizing modularity and how to incorporate DRY principles
 
 Modularity is the degree to which a system's components may be separated and recombined, often with the benefit of flexibility and variety in use.
 
