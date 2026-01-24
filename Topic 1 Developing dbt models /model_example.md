@@ -1,10 +1,24 @@
 ## What does a model file looks like 
 
+
+## Model file example using source 
+```sql
+--Filename: orders.sql
+
+select
+  ...
+
+from {{ source('jaffle_shop', 'orders') }}
+
+left join {{ source('jaffle_shop', 'customers') }} using (customer_id)
+```
+
+## Model file example using reference 
 ```sql
 --Filename: sales.sql
 
 {{ config(
-materialized='table'
+materialized='incremental'
 ) }}
 
 select 
