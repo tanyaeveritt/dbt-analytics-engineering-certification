@@ -14,42 +14,38 @@ This repository contains comprehensive study notes for the dbt Analytics Enginee
 Name change in the dbt space have happened
 * dbt cloud is now called dbt platform. https://docs.getdbt.com/docs/introduction#the-dbt-platform-formerly-dbt-cloud
 * dbt fusion enginer are
+* dbt studio
 * dbt model are .sql files that live in the models folder.
 * Modeling History - With a modern cloud-based data warehouse, we can approach analytics differently in an agile or ad hoc modeling technique. This is often referred to as denormalized modeling.
+* More full list of dbt related defintions, please refer to the glossary file.
 
 ## 📚 Domain Topics
 
 *   [Topic 1:]()
 *   [Topic 2:]()
+*   [Topic 3:]()
+*   [Topic 4:]()
+*   [Topic 5:]()
+*   [Topic 6:]()
+*   [Topic 7:]()
+*   [Topic 8:]()
 
-## 📋 **Get Started**
+## 📋 **How to Use This Guide**
 Depending on your dbt skill level you might want to check each resource out and test how well you know the content and determine whether you want to skip it.
 1.    **Start by reading the [Study Guide](https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide)** Get an idea of what topics you have worked on and address you study schedule according to content you dont know.
 2.    **Attempt one practice paper** from [Practice Questions - qanalabs](https://www.qanalabs.com/courses/dbt-developer). Identify gaps
 3.    **Complete the [Learning Path](https://learn.getdbt.com/learning-paths/dbt-certified-developer)** to fill in gaps
-4.    **Read dbt slack channels** recent posts and conversations for tips and tricks for the exam.
-5.    **Attempt all remaining practice papers** from [Practice Questions - qanalabs](https://www.qanalabs.com/courses/dbt-developer) and score an average of 80%. This will ensure you are ready for the exam.
+      OR
+5.    **Read notes in this repo**
+6.    **Read dbt slack channels** recent posts and conversations for tips and tricks for the exam.
+7.    **Attempt all remaining practice papers** from [Practice Questions - qanalabs](https://www.qanalabs.com/courses/dbt-developer) and score an average of 80%. This will ensure you are ready for the exam.
 
-### **Learning Path**
+## Quick External Links
 *   Learning Path: https://learn.getdbt.com/learning-paths/dbt-certified-developer
-
-### **Study Guide**
 *   Study Guide: https://www.getdbt.com/dbt-assets/certifications/dbt-certificate-study-guide
-
-### **Practice Exams**
 *   dbt Analytics Engineering Certification Practice Questions - qanalabs: https://www.qanalabs.com/courses/dbt-developer
 
-
-## 🎯 How to Use This Guide
-
-1. **Start with Domain Overviews:** Read each domain's README.md to understand the scope
-2. **Follow the Learning Path:** Work through topics in order within each domain
-3. **Complete Practice Scenarios:** Apply knowledge to real-world Gen AI implementations
-4. **Use Quick References:** Leverage cheat sheets during hands-on practice
-5. **Test Your Knowledge:** Complete practice questions and review answers
-
 ## 📝 Study Tips for Gen AI Specialty
-
 *   **Defer, State, and Clone:** Understand the differences between these concepts. These came up so often.
 *   **Test vs. Model Contracts:** Know the difference between test contracts and model contracts, and understand the difference between generic and singular tests.
 *   **Tests, generic, custom generic** how its written and referenced, yml, sql
