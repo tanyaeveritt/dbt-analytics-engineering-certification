@@ -6,6 +6,7 @@
 * Converting business logic into performant SQL queries
 
 ## Using commands such as run, test, docs and seed
+All commands here http://docs.getdbt.com/category/list-of-commands
 ### Run
 **Run all models** 
 ```sql
