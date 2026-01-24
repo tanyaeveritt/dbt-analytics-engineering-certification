@@ -145,15 +145,61 @@ Learn more at [dbt seed - dbt documentation](https://popsql.com/learn-dbt/dbt-se
 
 
 ---
-* Creating a logical flow of models and building clean DAGs
-* Defining configurations in dbt_project.yml
-* Configuring sources in dbt
-* Using dbt Packages
-* Utilizing git functionality within the development lifecycle
-* Creating Python models
-* Providing access to users to models with the “grants” configuration
+## Creating a logical flow of models and building clean DAGs
+
+## Defining configurations in dbt_project.yml
+Learn more at [dbt_project.yml configs - dbt documentation](https://docs.getdbt.com/reference/dbt_project.yml)
+
+## Configuring sources in dbt
+
+```sql
+--Filename: sources.yml
+sources:
+  - name: jaffle_shop --source name
+    database: raw  
+    schema: jaffle_shop  
+    tables:
+      - name: orders
+      - name: customers
+
+  - name: stripe
+    tables:
+      - name: payments
+```
+
+References to source in model files
+```
+source{source name,table}
+```
+
+```sql
+--Filename: stage_model.sql
+select
+  ...
+from {{ source('jaffle_shop', 'orders') }} --source{source name,table}
+
+left join {{ source('jaffle_shop', 'customers') }} using (customer_id)
+```
+
+## Using dbt Packages
+```sql
+--Filename:packages.yml or dependencies.yml
+--add any package dependencies to packages.yml or add any project dependencies to dependencies.yml
+packages:
+  - package: dbt-labs/snowplow
+    version: 0.7.0
+
+  - git: "https://github.com/dbt-labs/dbt-utils.git"
+    revision: 0.9.2
+
+  - local: /opt/dbt/redshift
+```
+
+## Utilizing git functionality within the development lifecycle
+## Creating Python models
 
 ---
+## Providing access to users to models with the “grants” configuration
 ### Grants
 ```grants ```
 
