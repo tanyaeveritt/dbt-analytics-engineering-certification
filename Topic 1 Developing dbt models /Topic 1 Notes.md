@@ -195,6 +195,7 @@ packages:
   - local: /opt/dbt/redshift
 ```
 
+https://hub.getdbt.com/
 ## Utilizing git functionality within the development lifecycle
 ## Creating Python models
 
